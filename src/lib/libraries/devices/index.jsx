@@ -76,7 +76,7 @@ const deviceData = [
         tags: ['realtime']
     },
     {
-        name: 'Arduino Uno11',
+        name: 'Arduino Uno',
         deviceId: 'arduinoUno',
         manufactor: 'arduino.cc',
         learnMore: 'https://store.arduino.cc/usa/arduino-uno-rev3',
@@ -107,7 +107,7 @@ const deviceData = [
             />
         ),
         baseToolBoxXml: arduinoBaseToolBox,
-        programMode: ['realtime', 'upload'],
+        programMode: ['upload','realtime'],
         programLanguage: ['block', 'c', 'cpp'],
         tags: ['arduino'],
         helpLink: 'https://store.arduino.cc/usa/arduino-uno-rev3'
