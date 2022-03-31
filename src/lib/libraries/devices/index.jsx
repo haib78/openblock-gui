@@ -76,7 +76,7 @@ const deviceData = [
         tags: ['realtime']
     },
     {
-        name: 'Arduino Uno',
+        name: 'Arduino Uno11',
         deviceId: 'arduinoUno',
         manufactor: 'arduino.cc',
         learnMore: 'https://store.arduino.cc/usa/arduino-uno-rev3',
