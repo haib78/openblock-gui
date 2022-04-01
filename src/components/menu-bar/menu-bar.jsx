@@ -509,13 +509,13 @@ class MenuBar extends React.Component {
                 <div className={styles.mainMenu}>
                     <div className={classNames(styles.menuBarItem)}>
                         <img
-                            alt="OpenBlock"
+                            alt="YGrobot"
                             className={classNames(styles.scratchLogo, {
                                 [styles.clickable]: typeof this.props.onClickLogo !== 'undefined'
                             })}
                             draggable={false}
                             src={this.props.logo}
-                            onClick={this.props.onClickLogo}
+                            //onClick={this.props.onClickLogo}
                         />
                     </div>
                     {(this.props.canChangeLanguage) && (<div
@@ -851,14 +851,10 @@ class MenuBar extends React.Component {
                                         {installDriver}
                                     </MenuItem>
                                 </MenuSection>
-                                <MenuSection>
-                                    {typeof this.props.onClickAbout === 'object' ? aboutButton : null}
-                                </MenuSection>
                             </MenuBarMenu>
                         </div>
                     ) : null}
                 </div>
-                { (typeof this.props.onClickAbout === 'function') ? aboutButton : null}
             </Box>
         );
     }
