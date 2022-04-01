@@ -69,7 +69,7 @@ describe('Menu bar settings', () => {
         const el = await findByXpath('//input[@value="YGrobot Project"]');
         await el.sendKeys(' - Personalized');
         await clickText('Costumes'); // just to blur the input
-        await clickXpath('//input[@value="OpenBlock Project - Personalized"]');
+        await clickXpath('//input[@value="OpenBlock Project3 - Personalized"]');
     });
 
     test('User is not warned before uploading project file over a fresh project', async () => {
