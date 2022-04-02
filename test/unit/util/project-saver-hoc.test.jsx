@@ -18,7 +18,7 @@ describe('projectSaverHOC', () => {
             scratchGui: {
                 projectChanged: false,
                 projectState: {},
-                projectTitle: 'OpenBlock Project2',
+                projectTitle: 'OpenBlock Project',
                 timeout: {
                     autoSaveTimeoutId: null
                 }
