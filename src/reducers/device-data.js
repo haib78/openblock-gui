@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 const SET_DEVICE_DATA = 'scratch-gui/device-list/setDeviceData';
 
 const initialState = {
     deviceData: []
+=======
+import {makeDeviceLibrary} from '../lib/libraries/devices/index.jsx';
+
+const SET_DEVICE_DATA = 'scratch-gui/device-list/setDeviceData';
+
+const initialState = {
+    deviceData: makeDeviceLibrary()
+>>>>>>> develop
 };
 
 const reducer = function (state, action) {

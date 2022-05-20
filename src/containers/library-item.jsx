@@ -126,7 +126,14 @@ class LibraryItem extends React.PureComponent {
         return this.props.icons;
     }
     render () {
+<<<<<<< HEAD
         const iconSource = this.curIconSource();
+=======
+        const iconMd5 = this.curIconMd5();
+        const iconURL = iconMd5 ?
+            `https://openblockcc.github.io/openblock-assets/assets/${iconMd5}` :
+            this.props.iconRawURL;
+>>>>>>> develop
         return (
             <LibraryItemComponent
                 author={this.props.author}
